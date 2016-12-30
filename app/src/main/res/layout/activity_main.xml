@@ -6,10 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.h2physics.movingviewdemo.MainActivity">
 
-    <Button
+    <ImageView
         android:id="@+id/button"
-        android:layout_width="80dp"
+        android:layout_width="wrap_content"
         android:layout_height="80dp"
-        android:background="@drawable/rounded_view"/>
+        android:src="@drawable/neko_mini"
+        android:background="@drawable/rounded_view"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
